@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Header from "./components/Header";
-import StudentTable from "./components/StudentTable";
-import AddStudentForm from "./components/AddStudentForm";
-import Stats from "./components/Stats";
-import Footer from "./components/Footer";
+import Header from "./Components/Header";
+import StudentTable from "./Components/StudentTable";
+import AddStudentForm from "./Components/AddStudentForm";
+import Stats from "./Components/Stats";
+import Footer from "./Components/Footer";
 import "./App.css";
 
 function App() {
