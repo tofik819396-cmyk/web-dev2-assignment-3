@@ -12,6 +12,7 @@ function StudentRow({ student, updateScore, deleteStudent }) {
   };
 
   return (
+    <>
     <tr>
       <td>{student.name}</td>
       <td>
@@ -30,6 +31,7 @@ function StudentRow({ student, updateScore, deleteStudent }) {
         <button onClick={handleDelete} className="delete-btn">Delete</button>
       </td>
     </tr>
+    </>
   );
 }
 

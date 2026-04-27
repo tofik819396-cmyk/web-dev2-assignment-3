@@ -15,6 +15,7 @@ function AddStudentForm({ addStudent }) {
   };
 
   return (
+    <>
     <form onSubmit={handleSubmit} className="add-student-form">
       <input
         type="text"
@@ -34,6 +35,7 @@ function AddStudentForm({ addStudent }) {
       />
       <button type="submit">Add Student</button>
     </form>
+    </>
   );
 }
 

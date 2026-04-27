@@ -6,6 +6,7 @@ function Stats({ students }) {
   const averageMarks = students.length > 0 ? (students.reduce((sum, student) => sum + student.score, 0) / students.length).toFixed(2) : 0;
 
   return (
+    <>
     <div className="stats-container">
       <div className="stat-card">
         <h3>Total Students</h3>
@@ -20,6 +21,7 @@ function Stats({ students }) {
         <p>{averageMarks}</p>
       </div>
     </div>
+    </>
   );
 }
 

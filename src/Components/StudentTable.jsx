@@ -4,6 +4,7 @@ import StudentRow from "./StudentRow";
 
 function StudentTable({ students, updateScore, deleteStudent }) {
   return (
+    <>
     <table>
       <thead>
         <tr>
@@ -24,6 +25,7 @@ function StudentTable({ students, updateScore, deleteStudent }) {
         ))}
       </tbody>
     </table>
+    </>
   );
 }
 
