@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { useState } from 'react';
 function Stats({ students }) {
   const totalStudents = students.length;
   const passedStudents = students.filter(student => student.score >= 40).length;

@@ -1,3 +1,5 @@
+import React from "react";
+import { useState } from "react"; 
 import StudentRow from "./StudentRow";
 
 function StudentTable({ students, updateScore, deleteStudent }) {

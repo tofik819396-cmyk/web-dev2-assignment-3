@@ -1,3 +1,5 @@
+import React from "react";
+import { useState } from "react";
 function StudentRow({ student, updateScore, deleteStudent }) {
   const handleChange = (e) => {
     updateScore(student.id, e.target.value);
